@@ -1,0 +1,35 @@
+<testsuites id="" name="" tests="1" failures="1" skipped="0" errors="0" time="41.521907999999996">
+<testsuite name="test_b-b.spec.ts" timestamp="2025-07-06T12:58:22.035Z" hostname="chromium" tests="1" failures="1" skipped="0" time="30.31" errors="0">
+<testcase name="Connexion + accès création RDQ" classname="test_b-b.spec.ts" time="30.31">
+<failure message="test_b-b.spec.ts:3:5 Connexion + accès création RDQ" type="FAILURE">
+<![CDATA[  [chromium] › test_b-b.spec.ts:3:5 › Connexion + accès création RDQ ───────────────────────────────
+
+    Test timeout of 30000ms exceeded.
+
+    Error: page.waitForSelector: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('button:has([data-testid="AddIcon"])') to be visible
+
+
+      38 |
+      39 | //Forcer un waitForSelector explicite avec timeout plus long
+    > 40 | await page.waitForSelector('button:has([data-testid="AddIcon"])', { timeout: 10000 });
+         |            ^
+      41 | await page.locator('button:has([data-testid="AddIcon"])').click();
+      42 |
+      43 |
+        at C:\Users\w.hnaien\Playwright-Framework\tests\test_b-b.spec.ts:40:12
+
+    Error Context: ..\test-results\test_b-b-Connexion-accès-création-RDQ-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Authentification réussie, liste des RDQ affichée : Liste des RDQ
+[33m0[39m
+
+[[ATTACHMENT|test-results\test_b-b-Connexion-accès-création-RDQ-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
