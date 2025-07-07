@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="27.388485999999567">
+<testsuite name="test_b-b.spec.ts" timestamp="2025-07-07T10:00:05.906Z" hostname="chromium" tests="1" failures="0" skipped="0" time="23.513" errors="0">
+<testcase name="Connexion + accès création RDQ" classname="test_b-b.spec.ts" time="23.513">
+<system-out>
+<![CDATA[Authentification réussie, liste des RDQ affichée : Liste des RDQ
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
